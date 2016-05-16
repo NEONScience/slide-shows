@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <title></title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style type="text/css">code{white-space: pre;}</style>
+  <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="why-data-management" class="level2">
+<h2>Why Data Management?</h2>
+<figure>
+<img src="images/slide-1-intro.jpg" alt="My caption." /><figcaption>My caption.</figcaption>
+</figure>
+<div class="notes">
+<p>Here are some <em>notes</em>.</p>
+<ul>
+<li>Something about the slide</li>
+<li>another thing about the slide</li>
+<li><aside class="notes">
+here are slide notes.
+</aside></li>
+</ul>
+</div>
+</section>
+<section id="lesson-topics" class="level2">
+<h2>Lesson Topics</h2>
+<ul>
+<li>The data world around us</li>
+<li>Importance of data management</li>
+<li>The data lifecycle</li>
+<li>The case for data management</li>
+</ul>
+<p>Note: The topics covered in this module will answer the questions:</p>
+</section>
+<section id="learning-objectives" class="level2">
+<h2>Learning Objectives</h2>
+<ul>
+<li>Give two general examples of why increasing amounts of data is a concern</li>
+<li>Explain, using two examples, how lack of data management makes an impact</li>
+<li>Define the research data lifecycle</li>
+<li>Give one example of how well-managed data can result in new scientific conclusions</li>
+</ul>
+</section>
+<section id="data-realities" class="level2">
+<h2>Data Realities</h2>
+</section>
+<section id="section" class="level2">
+<h2></h2>
+<figure>
+<img src="images/Slide05.jpg" alt="Magazines" /><figcaption>Magazines</figcaption>
+</figure>
+<p>Note: The world today is filled with science news, from climate change to hurricanes – and it all affects the people inhabiting the earth.</p>
+</section>
+<section id="data-deluge" class="level2">
+<h2>Data Deluge</h2>
+<p>Data is collected from sensors, sensor networks, remote sensing, observations, and more - this calls for increased attention to data management and stewardship.</p>
+<figure>
+<img src="images/data-deluge.jpg" alt="Magazines" /><figcaption>Magazines</figcaption>
+</figure>
+</section>
+<section id="a-world-of-data" class="level2">
+<h2>A World of Data</h2>
+<figure>
+<img src="images/data-around-us.png" alt="data around us" /><figcaption>data around us</figcaption>
+</figure>
+<p>Note: The amount of available storage is not keeping up with the amount of data flooding in daily. How do we decide what data we keep?</p>
+</section>
+<section id="data-loss" class="level2">
+<h2>Data Loss</h2>
+<ul>
+<li>Natural disaster</li>
+<li>Facilities infrastructure failure</li>
+<li>Server hardware/software failure</li>
+<li>Application software failure</li>
+<li>External dependencies (e.g. PKI failure)</li>
+<li>Format obsolescence</li>
+<li>Legal encumbrance</li>
+<li>Human error</li>
+<li>Malicious attack by human or automated agents</li>
+<li>Loss of staffing competencies</li>
+<li>Loss of institutional commitment</li>
+<li>Loss of financial stability</li>
+<li>Changes in user expectations and requirements <img src="images/data-loss.jpg" /></li>
+</ul>
+</section>
+<section id="poor-data-management-affects-everyone" class="level2">
+<h2>Poor Data Management Affects Everyone</h2>
+<p><strong>AUDIT: JUSTICE STATS ON ANTI-TERROR CASES FLAWED” (AP) February 2007</strong> &gt; The Justice Department Inspector General found only two sets of data out of 26<br />
+&gt; concerning terrorism attacks were accurate. The Inspector General said the data “appear to be &gt; the result of decentralized and haphazard methods of collections … and do not appear &gt; to be intentional.”</p>
+<p><strong>OOPS! TECH ERROR WIPES OUT Alaska Info” (AP) March 2007</strong> &gt; A technician managed to delete the data and backup for the $38 billion Alaska oil<br />
+&gt; revenue fund – money received by residents of the State. Correcting the errors cost the &gt; State an additional $220,700.</p>
+<p>Note: Data Costs</p>
+<p>Consider some of the data management issues that made headlines, affecting agencies and organizations. Data quality is not limited to any one organization. These examples show costs (in terms of money lost) due to a lack of data quality control.</p>
+</section>
+<section id="poor-data-management-example" class="level2">
+<h2>Poor Data Management Example</h2>
+<p>A wildlife biologist for a small field office provided support for staff GIS needs. The data were stored on her workstation. When the biologist relocated to another office, no one understood how the data was stored or managed.</p>
+<p>Solution: A state office GIS specialist retrieved the workstation and sifted through files trying to salvage relevant data.</p>
+<p>Cost: 1 work month ($4,000) plus the value of data that was not recovered</p>
+<p>Consider that the situation could have been worse, because the data was not being backed up as it would have been if stored on a server.</p>
+</section>
+<section id="poor-data-management-example-1" class="level2">
+<h2>Poor Data Management Example</h2>
+<p>In preparation for a Resource Management Plan, an office discovered 14 duplicate GPS inventories of roads. However, because none of the inventories had enough metadata, it was impossible to know which inventory was best or if any of the inventories actually met their requirements.</p>
+<p>Solution: Re-Inventory roads</p>
+<p>Cost: Estimated 9 work months/inventory @$4,000/wm (14 inventories = $504,000)</p>
+<figure>
+<img src="images/data-mgt-ex.png" />
+</figure>
+</section>
+<section id="importance-of-data-management" class="level2">
+<h2>Importance of Data Management</h2>
+<p>Please forgive my paranoia about protocols, standards, and data review. I'm in the latter stages of a long career with USGS (30 years, and counting), and have experienced much. Experience is the knowledge you get just after you needed it.</p>
+<p>Several times, I've seen colleagues called to court in order to testify about conditions they have observed.</p>
+<p>Without a strong tradition of constant review and approval of basic data, they would've been in deep trouble under cross-examination. Instead, they were able to produce field notes, data approval records, and the like, to back up their testimony.</p>
+<p>It's one thing to be questioned by a college student who is working on a project for school. It's another entirely to be grilled by an attorney under oath with the media present.”</p>
+<ul>
+<li>Nelson Williams, Scientist US Geological Survey</li>
+</ul>
+</section>
+<section id="importance-of-data-management-1" class="level2">
+<h2>Importance of Data Management</h2>
+<p>The climate scientists at the centre of a media storm over leaked emails were yesterday cleared of accusations that they fudged their results and silenced critics, but a review found they had failed to be open enough about their work.</p>
+<figure>
+<img src="images/datamgt-import.png" />
+</figure>
+</section>
+    </div>
+  </div>
+
+  <script src="reveal.js/lib/js/head.min.js"></script>
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
