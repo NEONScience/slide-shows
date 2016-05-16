@@ -224,6 +224,7 @@ $if(maxScale)$
         maxScale: $maxScale$,
 $endif$
 
+		slideNumber: true,
         // Optional reveal.js plugins
         dependencies: [
           { src: '$revealjs-url$/lib/js/classList.js', condition: function() { return !document.body.classList; } },
