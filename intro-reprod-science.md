@@ -2,7 +2,7 @@
 
 Adapted from the Reproducible Science Curriculum
 
-## 
+##
 
 >Reproducibilty is actually all about being as lazy as possible!
 
@@ -18,6 +18,19 @@ Adapted from the Reproducible Science Curriculum
   </aside>
 </section>
 
+
+## Better Research
+
+<div class="column column1">
+
+![Twitter](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
+</div>
+<div class="column column2">
+<small>Figure 1. Distribution of reporting errors per paper for papers from which data were shared and from which no data were shared.</small>
+
+[Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.](http://dx.doi.org/10.1371/journal.pone.0026828)
+</div>
+
 ## Four Facets of Reproducibility
 
 1. Documentation
@@ -29,13 +42,13 @@ Over the next week, we will focus on these elements related to reproducibility.
 
 
 ## 1. Documentation
- 
+
 * Document all workflow steps:
 	* You can remind your future self of your workflow
 	* Others can see and understand your work
 	* Future "re-analysis" of your data is more efficient
 
-	
+
 ## Documentation
 
 Code should be easy to understand with clear goals
@@ -44,8 +57,8 @@ Code should be easy to understand with clear goals
 
 ## Documentation Pro-Tips
 
-> Add comments around functions that describe purpose, inputs and outputs. 
-       
+> Add comments around functions that describe purpose, inputs and outputs.
+
 
 ## Documentation Pro-Tips
 *  Use a widely read format: Text files (.txt, .md) don't require special tools to read.
@@ -60,7 +73,7 @@ Code should be easy to understand with clear goals
 
 
 
-Graphic: 
+Graphic:
 http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/organization-slides/assets/player/KeynoteDHTMLPlayer.html#6
 
 
@@ -125,9 +138,4 @@ Modularity -- use functions to write code in reusable chunks
 
 ## Motivation - Why Bother?
 
-* 
-
-
-
-	
-
+*

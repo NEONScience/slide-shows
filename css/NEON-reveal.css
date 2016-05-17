@@ -1,0 +1,11 @@
+/* adjust the logo on the landing page */
+
+.column.column1 {
+    float: left;
+    width: 48%;
+}
+
+.column.column2 {
+    float: right;
+    width: 48%;
+}
