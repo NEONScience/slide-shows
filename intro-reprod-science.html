@@ -30,7 +30,7 @@
 
 <section id="intro-to-reproducible-science" class="level2">
 <h2>Intro to Reproducible Science</h2>
-<p>Adapted from the Reproducible Science Curriculum</p>
+<p>Adapted from the Reproducible Science Curriculum <em>Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, and everyone else who contributed</em></p>
 </section>
 <section id="section" class="level2">
 <h2></h2>
@@ -43,6 +43,37 @@
 <pre><code>I&#39;m your Notes :)</code></pre>
 </aside>
 </section>
+</section>
+<section id="whats-in-it-for-me" class="level2">
+<h2>What’s in it for me?</h2>
+<blockquote>
+<p>more efficient, less redundant science: others can build upon our work</p>
+</blockquote>
+</section>
+<section id="whats-in-it-for-me-1" class="level2">
+<h2>What’s in it for me?</h2>
+<blockquote>
+<p><a href="http://www.genomebiology.com/2015/16/1/274">Five selfish reasons to work reproducibly</a> - Florian Markowetz</p>
+</blockquote>
+<ol type="1">
+<li>Reproducibility helps to avoid disaster</li>
+<li>Reproducibility makes it easier to write papers</li>
+<li>Reproducibility helps reviewers see it your way</li>
+<li>Reproducibility enables continuity of your work</li>
+<li>Reproducibility helps to build your reputation</li>
+</ol>
+</section>
+<section id="who-do-we-need-to-share-with" class="level2">
+<h2>Who do we need to share with?</h2>
+<ul>
+<li>collaborators</li>
+<li>peer reviewers &amp; journal editors</li>
+<li>broad scientific community</li>
+<li>generally the public</li>
+</ul>
+<blockquote>
+<p>For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them.</p>
+</blockquote>
 </section>
 <section id="better-research" class="level2">
 <h2>Better Research</h2>
@@ -64,48 +95,65 @@
 <li>Automation</li>
 <li>Dissemination</li>
 </ol>
-<p>Over the next week, we will focus on these elements related to reproducibility.</p>
+<p><em>Over the next week, we will focus on these elements related to reproducibility.</em></p>
 </section>
 <section id="documentation" class="level2">
 <h2>1. Documentation</h2>
-<ul>
-<li>Document all workflow steps:
+<p>Document all workflow steps:</p>
 <ul>
 <li>You can remind your future self of your workflow</li>
 <li>Others can see and understand your work</li>
 <li>Future &quot;re-analysis&quot; of your data is more efficient</li>
-</ul></li>
 </ul>
 </section>
 <section id="documentation-1" class="level2">
 <h2>Documentation</h2>
 <p>Code should be easy to understand with clear goals</p>
 <blockquote>
-<p>Document your code even if you think it's clear and simple. Your collaborators &amp; your future self will inevitably have an easier time working with it down the road!</p>
+<p>Document your code even if you think it's clear and simple. Your collaborators &amp; your future self will inevitably have an easier time working with it down the road.</p>
 </blockquote>
 </section>
-<section id="documentation-pro-tips" class="level2">
-<h2>Documentation Pro-Tips</h2>
+<section id="documentation-pro-tip-1" class="level2">
+<h2>Documentation Pro-Tip 1</h2>
 <blockquote>
 <p>Add comments around functions that describe purpose, inputs and outputs.</p>
 </blockquote>
 </section>
-<section id="documentation-pro-tips-1" class="level2">
-<h2>Documentation Pro-Tips</h2>
-<ul>
-<li>Use a widely read format: Text files (.txt, .md) don't require special tools to read.</li>
-<li>Markdown to style documentation = machine readable, low overhead</li>
-<li>Programming approaches that connect data cleaning, analysis &amp; results</li>
-</ul>
+<section id="documentation-pro-tip-2" class="level2">
+<h2>Documentation Pro-Tip 2</h2>
+<blockquote>
+<p>Avoid proprietary formats: e.g. text files (.txt,.md) don't require special tools to open.</p>
+</blockquote>
+</section>
+<section id="documentation-pro-tip-3" class="level2">
+<h2>Documentation Pro-Tip 3</h2>
+<blockquote>
+<p>Markdown to style documentation = machine readable, low overhead</p>
+</blockquote>
+</section>
+<section id="documentation-pro-tip-4" class="level2">
+<h2>Documentation Pro-Tip 4</h2>
+<p>Use coding approaches that connect data cleaning, analysis &amp; results</p>
+<blockquote>
+<p>e.g. r markdown, ipython notebooks</p>
+</blockquote>
 </section>
 <section id="organization" class="level2">
 <h2>2. Organization</h2>
+<p>The more self explanatory the better:</p>
 <ul>
 <li>Consider overall structure of folders and files</li>
 <li>Use informative file names</li>
-<li>The more self explanatory the better</li>
 </ul>
-<p>Graphic: http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/organization-slides/assets/player/KeynoteDHTMLPlayer.html#6</p>
+</section>
+<section id="section-1" class="level2">
+<h2></h2>
+<div style="width:85%">
+<figure>
+<img src="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pcbi.1000424.g001" alt="Noble, William Stafford, 2009. PlosOne" /><figcaption>Noble, William Stafford, 2009. PlosOne</figcaption>
+</figure>
+</div>
+<p>Source: &lt;a href=http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424' target=&quot;_blank&quot;&gt; A quick guide to organizing computational biology projects. </a></p>
 </section>
 <section id="organization-1" class="level2">
 <h2>2. Organization</h2>
@@ -113,9 +161,12 @@
 <ul>
 <li>Reflect inputs, outputs and information flow.</li>
 <li>Preserve raw data so it's not modified.</li>
-<li>Consider well documented storage of intermediate &amp; end outputs.</li>
-<li>Consider storage of associated scripts used to process data.</li>
+<li>Carefully document &amp; store intermediate &amp; end outputs.</li>
+<li>Carefully document &amp; store data processing scripts.</li>
 </ul>
+</section>
+<section id="organization-2" class="level2">
+<h2>Organization</h2>
 <figure>
 <img src="images/intro-rr/fileOrganization.png" />
 </figure>
@@ -128,7 +179,19 @@
 <li>Human readable</li>
 <li>Support sorting in a clear way</li>
 </ul>
-<p>link out?? http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html#19</p>
+</section>
+<section id="human-readable-naming" class="level2">
+<h2>Human Readable Naming</h2>
+<figure>
+<img src="images/intro-rr/human-readable-jenny.png" />
+</figure>
+<blockquote>
+<p>Which set of file names do you want at 3am before a deadline?</p>
+</blockquote>
+</section>
+<section id="organization-3" class="level2">
+<h2>Organization</h2>
+<p>More on File Naming &amp; organization http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html</p>
 </section>
 <section id="organization---benefits" class="level2">
 <h2>2. Organization - Benefits</h2>
@@ -141,9 +204,6 @@
 <section id="automation" class="level2">
 <h2>3. Automation</h2>
 <p>DRY -- Don't Repeat Yourself</p>
-<figure>
-<img src="images/intro-rr/index.jpg" alt="functions all things" /><figcaption>functions all things</figcaption>
-</figure>
 <blockquote>
 <p>If your analysis is composed of scripts, with repeated components in multiple parts of your code, it will be more time consuming to maintain and update.</p>
 </blockquote>
@@ -160,17 +220,26 @@
 <li>Allows for re-use of code on other data.</li>
 </ul>
 </section>
-<section id="automation---functions-vs-scripts" class="level2">
-<h2>Automation - Functions vs Scripts</h2>
-<p>...Script based coding may conflict with &quot;Dry&quot; repeated</p>
+<section id="automation-2" class="level2">
+<h2>Automation</h2>
+<figure>
+<img src="images/intro-rr/index.jpg" />
+</figure>
 </section>
 <section id="dissemination" class="level2">
 <h2>Dissemination</h2>
-<p>: publishing is not the end of your analysis, rather it is a way station towards your future research and the future research of others</p>
+<blockquote>
+<p>Publishing is not the end of your analysis, rather it is a way station towards your future research and the future research of others</p>
+</blockquote>
 </section>
-<section id="motivation---why-bother" class="level2">
-<h2>Motivation - Why Bother?</h2>
+<section id="dissemination-workflow" class="level2">
+<h2>Dissemination workflow</h2>
+<p>Example Workflow (R Focused):</p>
 <ul>
+<li>Document workflow <strong>Rmarkdown / Jupiter Notebooks</strong></li>
+<li>Collaborate with Colleagues / Version Control : <strong>GitHub</strong></li>
+<li>Publish Data Snapshot: <strong>FigShare, Dryad, etc</strong></li>
+<li><p>Share workflow: ** RPubs , Ipython Notebook Viewer**</p></li>
 <li></li>
 </ul>
 </section>
