@@ -1,4 +1,4 @@
-# Sharing, publishing and archiving research products
+## Sharing, publishing and archiving research products
 
 authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors </a>
 
