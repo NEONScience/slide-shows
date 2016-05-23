@@ -1,4 +1,4 @@
-# Sharing, publishing and archiving research products
+## Sharing, publishing and archiving research products
 
 authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors </a>
 
@@ -21,7 +21,7 @@ We'll be focusing on publishing and archiving
 * where do we publish various outputs?
 * how do we prepare materials for publication?
 
-For the remaining slides, we are going to assume that we are at the point of 
+For the remaining slides, we are going to assume that we are at the point of
 submitting our manuscript.
 
 ## why?
@@ -36,7 +36,7 @@ submitting our manuscript.
 <img src=/images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png width=500>
 
 <small>Figure 1: Citation density for papers with and without publicly available
-microarray data, by year of study publication.</small> Source: 
+microarray data, by year of study publication.</small> Source:
 <a href="https://dx.doi.org/10.7717/peerj.175" target="_blank">Piwowar & Vision (2013) Data reuse and the open data citation advantage.</a>
 </div>
 
@@ -134,10 +134,10 @@ publish? _no!_
 
 ## Activity outcomes
 
-Advice: One way to determine what you need to publish is to go through and redo 
-the analyses in your paper. Make note of the data and code and notes you needed 
-to do that analysis. Make sure all of that is available. This might seem time 
-consuming, but it assures that what you think you did is what you actually did. 
+Advice: One way to determine what you need to publish is to go through and redo
+the analyses in your paper. Make note of the data and code and notes you needed
+to do that analysis. Make sure all of that is available. This might seem time
+consuming, but it assures that what you think you did is what you actually did.
 
 [Computing Workflows for Biologists: A Roadmap](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002303)
 
@@ -170,9 +170,9 @@ However, at the point of paper submission, the results in your paper should be r
 [Growth of re3data.org](http://www.re3data.org/2014/11/over-1000-research-data-repositories-indexed-in-re3data-org/)
 
 
-Only some of these are archival, meaning they're committing to retaining your 
-data and products for longer periods of time. This is an important consideration 
-depending on your funders requirements. 
+Only some of these are archival, meaning they're committing to retaining your
+data and products for longer periods of time. This is an important consideration
+depending on your funders requirements.
 
 ## how to choose?
 
@@ -203,16 +203,16 @@ depending on your funders requirements.
     - share markdown on RPubs
     - archive a snapshot of data in Dryad
     - code snapshot to Zenodo
-    
+
 </div>
 
 ## university libraries try to help
 
-Libraries often have good resources for data management plans and information 
-and access to repositories. They are particularly good at thinking about data 
+Libraries often have good resources for data management plans and information
+and access to repositories. They are particularly good at thinking about data
 archives.
 
-Librarians are very helpful and super awesome! They're a great resource. 
+Librarians are very helpful and super awesome! They're a great resource.
 
 Example: The data management page from Duke University:
 <iframe width="100%" height="700px" src="http://library.duke.edu/data/guides/data-management"></iframe>
@@ -232,9 +232,9 @@ Example: The data management page from Duke University:
 
 ## how to share & publish: standard data formats
 
-Using standard data formats is sometimes required, but even when it's not, 
-conforming to standards greatly increases opportunties for re-use and 
-understanding. 
+Using standard data formats is sometimes required, but even when it's not,
+conforming to standards greatly increases opportunties for re-use and
+understanding.
 
 ## how to share & publish: checklist
 
@@ -246,7 +246,7 @@ understanding.
 * citation instructions
     - consider creating a [`CITATION` file](http://blog.rtwilson.com/encouraging-citation-of-software-introducing-citation-files/)
 * contribution instructions
-    - Github will automatically link to `CONTRIBUTING` file for new issues and 
+    - Github will automatically link to `CONTRIBUTING` file for new issues and
     pull requests
 
 ## does copyright apply?
@@ -287,16 +287,16 @@ understanding.
 
 ## open is not open to interpretation
 
-[The Open Definition](http://opendefinition.org/) sets out principles that 
-define “openness” in relation to data and content. It makes precise the meaning 
+[The Open Definition](http://opendefinition.org/) sets out principles that
+define “openness” in relation to data and content. It makes precise the meaning
 of “open” in the terms _open data_, _open content_, and _open source_:
 
-> “Open means anyone can freely access, use, modify, and share for any purpose 
+> “Open means anyone can freely access, use, modify, and share for any purpose
 (subject, at most, to requirements that preserve provenance and openness).”
 
 or more succinctly:
 
-> “Open data and content can be freely used, modified, and shared by anyone for 
+> “Open data and content can be freely used, modified, and shared by anyone for
 any purpose”
 
 ## Waiving copyright
@@ -304,36 +304,36 @@ any purpose”
 
 <center>[![CC Zero](http://mirrors.creativecommons.org/presskit/buttons/88x31/png/cc-zero.png)](http://creativecommons.org/about/cc0)</center>
 
-CC0 enables scientists, educators, artists and other creators and owners of 
-copyright- or database-protected content to waive those interests in their works 
-and thereby place them as completely as possible in the public domain, so that 
-others may freely build upon, enhance and reuse the works for any purposes 
+CC0 enables scientists, educators, artists and other creators and owners of
+copyright- or database-protected content to waive those interests in their works
+and thereby place them as completely as possible in the public domain, so that
+others may freely build upon, enhance and reuse the works for any purposes
 without restriction under copyright or database law.
 
 ## Dryad requires CC0
 
-[Dryad’s use of CC0](http://datadryad.org/pages/faq#info-cc0) to make the terms 
+[Dryad’s use of CC0](http://datadryad.org/pages/faq#info-cc0) to make the terms
 of reuse explicit has some important advantages:
 
-* Interoperability: Since CC0 is both human and machine-readable, other people 
+* Interoperability: Since CC0 is both human and machine-readable, other people
 nd indexing services will automatically be able to determine the terms of use.
-* Universality: CC0 is a single mechanism that is both global and universal, 
+* Universality: CC0 is a single mechanism that is both global and universal,
 covering all data and all countries. It is also widely recognized.
-* Simplicity: There is no need for humans to make, or respond to, individual 
-data requests, and no need for click-through agreements. This allows more 
+* Simplicity: There is no need for humans to make, or respond to, individual
+data requests, and no need for click-through agreements. This allows more
 scientists to spend their time doing science.
 
 ## licenses versus community norms
 
 
 From the [Panton Principles](http://pantonprinciples.org/faq/#Q11_What_are_community_norms_and_why_are_they_important):
-> [...] in the scholarly research community the act of citation is a commonly 
+> [...] in the scholarly research community the act of citation is a commonly
 held community norm when reusing another community member’s work.
 >
-> Community norms can be a much more effective way of encouraging positive 
-behaviour, such as citation, than applying licenses. A well functioning 
-community supports its members in their application of norms, whereas licences 
-can only be enforced through court action and thus invite people to ignore them 
+> Community norms can be a much more effective way of encouraging positive
+behaviour, such as citation, than applying licenses. A well functioning
+community supports its members in their application of norms, whereas licences
+can only be enforced through court action and thus invite people to ignore them
 when they are confident that this is unlikely.
 
 ## licenses are legal instruments
@@ -351,5 +351,5 @@ _Let scientists do science without having to talk to lawyers._
 
 ## Challenges and concerns about publishing data and code
 
-Thought Question: What are some of the challenges of publishing research 
+Thought Question: What are some of the challenges of publishing research
 products? What are some of the concerns that people have?

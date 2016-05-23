@@ -30,7 +30,8 @@
 
 <section id="intro-to-reproducible-science" class="level2">
 <h2>Intro to Reproducible Science</h2>
-<p>Adapted from the Reproducible Science Curriculum <em>Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, and everyone else who contributed to these materials. NEON has adapted them to our week long data institute.</em></p>
+<p>Adapted from the Reproducible Science Curriculum</p>
+<p><em>Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, and everyone else who contributed to these materials. NEON has adapted them to our week long data institute.</em></p>
 </section>
 <section id="section" class="level2">
 <h2></h2>
@@ -44,14 +45,14 @@
 </aside>
 </section>
 </section>
-<section id="whats-in-it-for-me" class="level2">
-<h2>What’s in it for me?</h2>
+<section id="why-use-reproducible-methods" class="level2">
+<h2>Why Use Reproducible Methods?</h2>
 <blockquote>
-<p>more efficient, less redundant science: others can build upon our work</p>
+<p>More efficient, less redundant science: others can build upon our work.</p>
 </blockquote>
 </section>
-<section id="whats-in-it-for-me-1" class="level2">
-<h2>What’s in it for me?</h2>
+<section id="section-1" class="level2">
+<h2></h2>
 <blockquote>
 <p><a href="http://www.genomebiology.com/2015/16/1/274">Five selfish reasons to work reproducibly</a> - Florian Markowetz</p>
 </blockquote>
@@ -63,54 +64,57 @@
 <li>Reproducibility helps to build your reputation</li>
 </ol>
 </section>
-<section id="who-do-we-need-to-share-with" class="level2">
-<h2>Who do we need to share with?</h2>
-<ul>
-<li>collaborators</li>
-<li>peer reviewers &amp; journal editors</li>
-<li>broad scientific community</li>
-<li>generally the public</li>
-</ul>
+<section id="how-to-make-work-reproducible" class="level2">
+<h2>How to Make Work Reproducible</h2>
 <blockquote>
 <p>For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them.</p>
 </blockquote>
+</section>
+<section id="who-do-we-need-to-share-with" class="level2">
+<h2>Who do we need to share with?</h2>
+<ul>
+<li>Collaborators</li>
+<li>Peer reviewers &amp; journal editors</li>
+<li>Broad scientific community</li>
+<li>The public</li>
+</ul>
 </section>
 <section id="better-research" class="level2">
 <h2>Better Research</h2>
 <div class="column column1">
 <figure>
-<img src="http://journals.plos.org/plosone/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pone.0026828.g001" alt="Twitter" /><figcaption>Twitter</figcaption>
+<img src="http://journals.plos.org/plosone/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pone.0026828.g001" />
 </figure>
 </div>
 <div class="column column2">
-<p><small>Figure 1. Distribution of reporting errors per paper for papers from which data were shared and from which no data were shared.</small></p>
-<p><a href="http://dx.doi.org/10.1371/journal.pone.0026828">Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.</a></p>
+<p><small>Figure 1. Distribution of reporting errors per paper. Papers from which data were shared has fewer errors. Click below to view paper.</small></p>
+<p><a href="http://dx.doi.org/10.1371/journal.pone.0026828" target="_blank">Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.</a></p>
 </div>
 </section>
-<section id="the-tools" class="level2">
-<h2>The tools</h2>
+<section id="the-tools-we-will-use" class="level2">
+<h2>The tools we will use</h2>
 <ul>
-<li>GitHub: Version Control / Collaboration</li>
-<li>R Markdown: Code documentation / publication</li>
+<li>GitHub: Version Control / Collaboration / Dissemination</li>
+<li>R Markdown: Code Documentation / Dissemination</li>
 </ul>
 </section>
 <section id="four-facets-of-reproducibility" class="level2">
 <h2>Four Facets of Reproducibility</h2>
+<p><em>Over the next week, we will focus on the tools and skills associated with these facets.</em></p>
 <ol type="1">
 <li>Documentation</li>
 <li>Organization</li>
 <li>Automation</li>
 <li>Dissemination</li>
 </ol>
-<p><em>Over the next week, we will focus on these elements related to reproducibility.</em></p>
 </section>
 <section id="documentation" class="level2">
 <h2>1. Documentation</h2>
 <p>Document all workflow steps:</p>
 <ul>
-<li>You can remind your future self of your workflow</li>
-<li>Others can see and understand your work</li>
-<li>Future &quot;re-analysis&quot; of your data is more efficient</li>
+<li>You can remind your future self of your workflow.</li>
+<li>Others can see and understand your work.</li>
+<li>Future &quot;re-analysis&quot; of your data is more efficient.</li>
 </ul>
 </section>
 <section id="documentation-1" class="level2">
@@ -129,38 +133,38 @@
 <section id="documentation-pro-tip-2" class="level2">
 <h2>Documentation Pro-Tip 2</h2>
 <blockquote>
-<p>Avoid proprietary formats: e.g. text files (.txt,.md) don't require special tools to open.</p>
+<p>Avoid proprietary formats: Use text files (.txt, .md) that don't require special tools to open.</p>
 </blockquote>
 </section>
 <section id="documentation-pro-tip-3" class="level2">
 <h2>Documentation Pro-Tip 3</h2>
 <blockquote>
-<p>Markdown to style documentation = machine readable, low overhead</p>
+<p>Markdown to style documentation = machine readable, small file size, low overhead.</p>
 </blockquote>
 </section>
 <section id="documentation-pro-tip-4" class="level2">
 <h2>Documentation Pro-Tip 4</h2>
 <p>Use coding approaches that connect data cleaning, analysis &amp; results</p>
 <blockquote>
-<p>e.g. r markdown, ipython notebooks</p>
+<p>R markdown and ipython / Jupyter notebooks allow you to publish code and results in one (or more) output files.</p>
 </blockquote>
 </section>
 <section id="organization" class="level2">
 <h2>2. Organization</h2>
 <p>The more self explanatory the better:</p>
 <ul>
-<li>Consider overall structure of folders and files</li>
-<li>Use informative file names</li>
+<li>Consider overall structure of folders and files.</li>
+<li>Use informative file names.</li>
 </ul>
 </section>
-<section id="section-1" class="level2">
+<section id="section-2" class="level2">
 <h2></h2>
 <div style="width:85%">
 <figure>
-<img src="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pcbi.1000424.g001" alt="Noble, William Stafford, 2009. PlosOne" /><figcaption>Noble, William Stafford, 2009. PlosOne</figcaption>
+<img src="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pcbi.1000424.g001" />
 </figure>
 </div>
-<p>Source: &lt;a href=http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424' target=&quot;_blank&quot;&gt; A quick guide to organizing computational biology projects. </a></p>
+<p><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank"> Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a></p>
 </section>
 <section id="organization-1" class="level2">
 <h2>2. Organization</h2>
@@ -182,23 +186,20 @@
 <h2>2. Organization -- File Names</h2>
 <p>File / Folder Names should be:</p>
 <ul>
-<li>Machine readable</li>
-<li>Human readable</li>
-<li>Support sorting in a clear way</li>
+<li>Machine readable.</li>
+<li>Human readable.</li>
+<li>Support sorting.</li>
 </ul>
 </section>
-<section id="human-readable-naming" class="level2">
-<h2>Human Readable Naming</h2>
+<section id="which-set-of-file-names-are-most-self-explanatory" class="level2">
+<h2>Which set of file names are most self-explanatory?</h2>
 <figure>
 <img src="images/intro-rr/human-readable-jenny.png" />
 </figure>
-<blockquote>
-<p>Which set of file names do you want at 3am before a deadline?</p>
-</blockquote>
 </section>
-<section id="organization-3" class="level2">
-<h2>Organization</h2>
-<p>More on File Naming &amp; organization http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html</p>
+<section id="section-3" class="level2">
+<h2></h2>
+<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming &amp; organization - the reproducible science curriculum.</a></p>
 </section>
 <section id="organization---benefits" class="level2">
 <h2>2. Organization - Benefits</h2>
@@ -212,23 +213,23 @@
 <h2>3. Automation</h2>
 <p>DRY -- Don't Repeat Yourself</p>
 <blockquote>
-<p>If your analysis is composed of scripts, with repeated components in multiple parts of your code, it will be more time consuming to maintain and update.</p>
+<p>If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.</p>
 </blockquote>
-<p>http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9</p>
+<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a></p>
 </section>
-<section id="automation-1" class="level2">
-<h2>Automation</h2>
-<p>Modularity -- use functions to write code in reusable chunks</p>
+<section id="automation-tips" class="level2">
+<h2>Automation Tips</h2>
+<p>Modularity -- use functions to write code in reusable chunks.</p>
 <ul>
-<li>Variables created within a function are temporary</li>
-<li>Cleaner code</li>
-<li>Allows for better documentation</li>
-<li>Supports testing</li>
+<li>Variables created within a function are temporary.</li>
+<li>Code with functions can be easier to read / cleaner.</li>
+<li>Allows for better documentation.</li>
+<li>Supports testing.</li>
 <li>Allows for re-use of code on other data.</li>
 </ul>
 </section>
-<section id="automation-2" class="level2">
-<h2>Automation</h2>
+<section id="section-4" class="level2">
+<h2></h2>
 <figure>
 <img src="images/intro-rr/index.jpg" />
 </figure>
@@ -236,22 +237,41 @@
 <section id="dissemination" class="level2">
 <h2>Dissemination</h2>
 <blockquote>
-<p>Publishing is not the end of your analysis, rather it is a way station towards your future research and the future research of others</p>
+<p>Publishing is not the end of your analysis, rather it is a way towards your future research and the future research of others.</p>
 </blockquote>
 </section>
 <section id="dissemination---why" class="level2">
 <h2>Dissemination - Why</h2>
-<p>http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-publication-slides.html#/5 ** increased visibility? ** fewer errors?</p>
+<ul>
+<li>Funding agency / journal requirement.</li>
+<li>Community expects it.</li>
+<li>Increased visibility / citation.</li>
+<li>More efficient, less redundant science.</li>
+</ul>
 </section>
 <section id="dissemination-workflow" class="level2">
 <h2>Dissemination workflow</h2>
-<p>Example Workflow (R Focused):</p>
+<p>Example Workflow / Tools (R Focused):</p>
 <ul>
-<li>Document workflow <strong>Rmarkdown / Jupiter Notebooks</strong></li>
+<li>Document workflow: <strong>Rmarkdown / Jupiter Notebooks</strong></li>
 <li>Collaborate with Colleagues / Version Control : <strong>GitHub</strong></li>
 <li>Publish Data Snapshot: <strong>FigShare, Dryad, etc</strong></li>
 <li>Share workflow: ** RPubs , Ipython Notebook Viewer**</li>
 </ul>
+</section>
+<section id="four-facets-of-reproducibility-1" class="level2">
+<h2>Four Facets of Reproducibility</h2>
+<p><em>An overview of some of the topics, tools and skills that we will cover during the Data Institute</em></p>
+<ol type="1">
+<li>Documentation - RMarkdown, GitHub</li>
+<li>Organization - File naming / directory structure best practices.</li>
+<li>Automation - Efficient Coding Practices (R)</li>
+<li>Dissemination - GitHub</li>
+</ol>
+</section>
+<section id="questions" class="level2">
+<h2>Questions?</h2>
+<p>Email: neondataskills@neoninc.org</p>
 </section>
     </div>
   </div>

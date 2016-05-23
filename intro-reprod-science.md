@@ -1,6 +1,7 @@
 ## Intro to Reproducible Science
 
 Adapted from the Reproducible Science Curriculum
+
 _Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, and everyone else who contributed to these materials. NEON has adapted them to our week long data institute._
 
 
@@ -21,11 +22,11 @@ _Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, 
 </section>
 
 
-## What’s in it for me?
+## Why Use Reproducible Methods?
 
-> more efficient, less redundant science: others can build upon our work
+> More efficient, less redundant science: others can build upon our work.
 
-## What’s in it for me?
+##
 
 > [Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) - Florian Markowetz
 
@@ -35,51 +36,55 @@ _Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, 
 4. Reproducibility enables continuity of your work
 5. Reproducibility helps to build your reputation
 
+## How to Make Work Reproducible
+
+> For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them.
 
 ## Who do we need to share with?
 
-* collaborators
-* peer reviewers & journal editors
-* broad scientific community
-* generally the public
+* Collaborators
+* Peer reviewers & journal editors
+* Broad scientific community
+* The public
 
-> For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them.
 
 ## Better Research
 
 <div class="column column1">
 
-![Twitter](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
+![](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
 </div>
 <div class="column column2">
-<small>Figure 1. Distribution of reporting errors per paper for papers from which data were shared and from which no data were shared.</small>
+<small>Figure 1. Distribution of reporting errors per paper. Papers from which data were shared has fewer
+errors. Click below to view paper.</small>
 
-[Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.](http://dx.doi.org/10.1371/journal.pone.0026828)
+<a href="http://dx.doi.org/10.1371/journal.pone.0026828" target="_blank">Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.</a>
 </div>
 
-## The tools
+## The tools we will use
 
-* GitHub: Version Control / Collaboration
-* R Markdown: Code documentation / publication
+* GitHub: Version Control / Collaboration / Dissemination
+* R Markdown: Code Documentation / Dissemination
 
 
 ## Four Facets of Reproducibility
+
+_Over the next week, we will focus on the tools and skills associated with these facets._
 
 1. Documentation
 2. Organization
 3. Automation
 4. Dissemination
 
-_Over the next week, we will focus on these elements related to reproducibility._
 
 
 ## 1. Documentation
 
 Document all workflow steps:
 
-* You can remind your future self of your workflow
-* Others can see and understand your work
-* Future "re-analysis" of your data is more efficient
+* You can remind your future self of your workflow.
+* Others can see and understand your work.
+* Future "re-analysis" of your data is more efficient.
 
 
 ## Documentation
@@ -95,33 +100,33 @@ Code should be easy to understand with clear goals
 
 
 ## Documentation Pro-Tip 2
->  Avoid proprietary formats: e.g. text files (.txt,.md) don't require special tools to open.
+>  Avoid proprietary formats: Use text files (.txt, .md) that don't require special tools to open.
 
 ## Documentation Pro-Tip 3
->  Markdown to style documentation = machine readable, low overhead
+>  Markdown to style documentation = machine readable, small file size, low overhead.
 
 ## Documentation Pro-Tip 4
 
 Use coding approaches that connect data cleaning, analysis & results
 
-> e.g. r markdown, ipython notebooks
+> R markdown and ipython / Jupyter notebooks allow you to publish code and results
+in one (or more) output files.
 
 ## 2. Organization
 
 The more self explanatory the better:
 
-* Consider overall structure of folders and files
-* Use informative file names
+* Consider overall structure of folders and files.
+* Use informative file names.
 
 ##
 
 <div style="width:85%">
-![Noble, William Stafford, 2009. PlosOne](http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1000424.g001)
+![](http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1000424.g001)
 </div>
 
-Source:
-<a  href=http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424' target="_blank">
-  A quick guide to organizing computational biology projects. </a>
+<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank">
+  Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a>
 
 
 ## 2. Organization
@@ -141,67 +146,83 @@ File Organization should:
 
 File / Folder Names should be:
 
-* Machine readable
-* Human readable
-* Support sorting in a clear way
+* Machine readable.
+* Human readable.
+* Support sorting.
 
-## Human Readable Naming
+## Which set of file names are most self-explanatory?
 ![](images/intro-rr/human-readable-jenny.png)
 
-> Which set of file names do you want at 3am before a deadline?
 
-## Organization
-More on File Naming & organization
-http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html
+##
+<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming & organization - the reproducible science curriculum.</a>
 
 ## 2. Organization - Benefits
 
 * Your future self will be able to quickly find files.
 * Colleagues will be able to more quickly understand your workflow.
-*  Machine readable names can be quickly and easily sorted and parsed.
+* Machine readable names can be quickly and easily sorted and parsed.
 
 
 ## 3. Automation
 
 DRY -- Don't Repeat Yourself
 
-> If your analysis is composed of scripts, with repeated components in multiple parts of your code, it will be more time consuming to maintain and update.
+> If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.
 
-http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9
+<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a>
 
 
-## Automation
+## Automation Tips
 
-Modularity -- use functions to write code in reusable chunks
+Modularity -- use functions to write code in reusable chunks.
 
-* Variables created within a function are temporary
-* Cleaner code
-* Allows for better documentation
-* Supports testing
+* Variables created within a function are temporary.
+* Code with functions can be easier to read / cleaner.
+* Allows for better documentation.
+* Supports testing.
 * Allows for re-use of code on other data.
 
-## Automation
+##
 
 ![](images/intro-rr/index.jpg)
 
 
 ## Dissemination
 
-> Publishing is not the end of your analysis, rather it is a way station towards
-> your future research and the future research of others
+> Publishing is not the end of your analysis, rather it is a way towards
+> your future research and the future research of others.
 
 ## Dissemination - Why
 
-http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-publication-slides.html#/5
-** increased visibility?
-** fewer errors?
+* Funding agency / journal requirement.
+* Community expects it.
+* Increased visibility / citation.
+* More efficient, less redundant science.
+
+
 
 
 ## Dissemination workflow
 
-Example Workflow (R Focused):
+Example Workflow / Tools (R Focused):
 
-* Document workflow **Rmarkdown / Jupiter Notebooks**
+* Document workflow: **Rmarkdown / Jupiter Notebooks**
 * Collaborate with Colleagues / Version Control : **GitHub**
 * Publish Data Snapshot: **FigShare, Dryad, etc**
 * Share workflow: ** RPubs , Ipython Notebook Viewer**
+
+
+## Four Facets of Reproducibility
+
+_An overview of some of the topics, tools and skills that we will cover
+during the Data Institute_
+
+1. Documentation - RMarkdown, GitHub
+2. Organization - File naming / directory structure best practices.
+3. Automation - Efficient Coding Practices (R)
+4. Dissemination - GitHub
+
+## Questions?
+
+Email: neondataskills@neoninc.org
