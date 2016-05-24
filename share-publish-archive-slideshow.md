@@ -34,7 +34,6 @@ submitting our manuscript.
 ## Increased visibility / citation
 <div class=columns-2>
 <img src=/images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png width=500>
-
 <small>Figure 1: Citation density for papers with and without publicly available
 microarray data, by year of study publication.</small> Source: 
 <a href="https://dx.doi.org/10.7717/peerj.175" target="_blank">Piwowar & Vision (2013) Data reuse and the open data citation advantage.</a>
