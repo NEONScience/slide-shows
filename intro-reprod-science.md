@@ -17,7 +17,7 @@ _Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, 
 
 <section>
   <aside class="notes">
-    I'm your Notes :)
+    :)
   </aside>
 </section>
 
@@ -25,6 +25,12 @@ _Special Thanks: Francois Michonneau, Hilmar Lapp, Karen Cranston, Jenny Bryan, 
 ## Why Use Reproducible Methods?
 
 > More efficient, less redundant science: others can build upon our work.
+
+## Reproducibility & Your research
+
+![](images/intro-rr/Good-better-best_RepSciCur_PengScience.jpg)
+
+Reproducibility spectrum for published research. Source: Peng, RD Reproducible Research in Computational Science Science (2011): 1226–1227 via Reproducible Science Curriculum
 
 ##
 
