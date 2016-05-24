@@ -84,6 +84,10 @@ The more self explanatory the better:
 * Consider overall structure of folders and files.
 * Use informative file names.
 
+## 1. Organization Pro-Tip
+
+> A variable name that describes the object is more useful than a random variable name.
+
 ##
 
 ![](images/intro-rr/basmati-rice.png)
@@ -109,6 +113,7 @@ File Organization should:
 
 
 ## Organization
+
 ![](images/intro-rr/fileOrganization.png)
 
 ## 1. Organization -- File Names
