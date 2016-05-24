@@ -102,14 +102,120 @@
 <h2>Four Facets of Reproducibility</h2>
 <p><em>Over the next week, we will focus on the tools and skills associated with these facets.</em></p>
 <ol type="1">
-<li>Documentation</li>
 <li>Organization</li>
 <li>Automation</li>
+<li>Documentation</li>
 <li>Dissemination</li>
 </ol>
 </section>
+<section id="organization" class="level2">
+<h2>1. Organization</h2>
+<p>The more self explanatory the better:</p>
+<ul>
+<li>Consider overall structure of folders and files.</li>
+<li>Use informative file names.</li>
+</ul>
+</section>
+<section id="section-2" class="level2">
+<h2></h2>
+<figure>
+<img src="images/intro-rr/basmati-rice.png" />
+</figure>
+</section>
+<section id="section-3" class="level2">
+<h2></h2>
+<div style="width:85%">
+<figure>
+<img src="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pcbi.1000424.g001" />
+</figure>
+</div>
+<p><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank"> Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a></p>
+</section>
+<section id="organization-1" class="level2">
+<h2>1. Organization</h2>
+<p>File Organization should:</p>
+<ul>
+<li>Reflect inputs, outputs and information flow.</li>
+<li>Preserve raw data so it's not modified.</li>
+<li>Carefully document &amp; store intermediate &amp; end outputs.</li>
+<li>Carefully document &amp; store data processing scripts.</li>
+</ul>
+</section>
+<section id="organization-2" class="level2">
+<h2>Organization</h2>
+<figure>
+<img src="images/intro-rr/fileOrganization.png" />
+</figure>
+</section>
+<section id="organization----file-names" class="level2">
+<h2>1. Organization -- File Names</h2>
+<p>File / Folder Names should be:</p>
+<ul>
+<li>Machine readable.</li>
+<li>Human readable.</li>
+<li>Support sorting.</li>
+</ul>
+</section>
+<section id="which-set-of-file-names-are-most-self-explanatory" class="level2">
+<h2>Which set of file names are most self-explanatory?</h2>
+<figure>
+<img src="images/intro-rr/human-readable-jenny.png" />
+</figure>
+</section>
+<section id="section-4" class="level2">
+<h2></h2>
+<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming &amp; organization - the reproducible science curriculum.</a></p>
+</section>
+<section id="organization---benefits" class="level2">
+<h2>1. Organization - Benefits</h2>
+<ul>
+<li>Your future self will be able to quickly find files.</li>
+<li>Colleagues will be able to more quickly understand your workflow.</li>
+<li>Machine readable names can be quickly and easily sorted and parsed.</li>
+</ul>
+</section>
+<section id="automation-pro-tip" class="level1">
+<h1>2. Automation Pro-Tip</h1>
+<p>Scripting vs. Point and click</p>
+<blockquote>
+<p>Code = more time spent up front, but will save time in the long run.</p>
+</blockquote>
+<section id="automation-pro-tip-1" class="level2">
+<h2>2. Automation Pro-Tip</h2>
+<p>Time Savings:</p>
+<ul>
+<li>More efficient to modify and repeat an analysis down the road.</li>
+<li>Easier for reviewers and colleagues to see even aspect of your methods.</li>
+<li>Self documenting methods - your future self will likely forget small steps.</li>
+</ul>
+</section>
+<section id="automation" class="level2">
+<h2>2. Automation</h2>
+<p>DRY -- Don't Repeat Yourself</p>
+<blockquote>
+<p>If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.</p>
+</blockquote>
+<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a></p>
+</section>
+<section id="automation-tips" class="level2">
+<h2>Automation Tips</h2>
+<p>Modularity -- use functions to write code in reusable chunks.</p>
+<ul>
+<li>Variables created within a function are temporary.</li>
+<li>Code with functions can be easier to read / cleaner.</li>
+<li>Allows for better documentation.</li>
+<li>Supports testing.</li>
+<li>Allows for re-use of code on other data.</li>
+</ul>
+</section>
+<section id="section-5" class="level2">
+<h2></h2>
+<figure>
+<img src="images/intro-rr/index.jpg" />
+</figure>
+</section>
 <section id="documentation" class="level2">
-<h2>1. Documentation</h2>
+<h2>2. Documentation</h2>
 <p>Document all workflow steps:</p>
 <ul>
 <li>You can remind your future self of your workflow.</li>
@@ -149,91 +255,6 @@
 <p>R markdown and ipython / Jupyter notebooks allow you to publish code and results in one (or more) output files.</p>
 </blockquote>
 </section>
-<section id="organization" class="level2">
-<h2>2. Organization</h2>
-<p>The more self explanatory the better:</p>
-<ul>
-<li>Consider overall structure of folders and files.</li>
-<li>Use informative file names.</li>
-</ul>
-</section>
-<section id="section-2" class="level2">
-<h2></h2>
-<div style="width:85%">
-<figure>
-<img src="http://journals.plos.org/ploscompbiol/article/figure/image?size=large&amp;id=info:doi/10.1371/journal.pcbi.1000424.g001" />
-</figure>
-</div>
-<p><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank"> Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a></p>
-</section>
-<section id="organization-1" class="level2">
-<h2>2. Organization</h2>
-<p>File Organization should:</p>
-<ul>
-<li>Reflect inputs, outputs and information flow.</li>
-<li>Preserve raw data so it's not modified.</li>
-<li>Carefully document &amp; store intermediate &amp; end outputs.</li>
-<li>Carefully document &amp; store data processing scripts.</li>
-</ul>
-</section>
-<section id="organization-2" class="level2">
-<h2>Organization</h2>
-<figure>
-<img src="images/intro-rr/fileOrganization.png" />
-</figure>
-</section>
-<section id="organization----file-names" class="level2">
-<h2>2. Organization -- File Names</h2>
-<p>File / Folder Names should be:</p>
-<ul>
-<li>Machine readable.</li>
-<li>Human readable.</li>
-<li>Support sorting.</li>
-</ul>
-</section>
-<section id="which-set-of-file-names-are-most-self-explanatory" class="level2">
-<h2>Which set of file names are most self-explanatory?</h2>
-<figure>
-<img src="images/intro-rr/human-readable-jenny.png" />
-</figure>
-</section>
-<section id="section-3" class="level2">
-<h2></h2>
-<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming &amp; organization - the reproducible science curriculum.</a></p>
-</section>
-<section id="organization---benefits" class="level2">
-<h2>2. Organization - Benefits</h2>
-<ul>
-<li>Your future self will be able to quickly find files.</li>
-<li>Colleagues will be able to more quickly understand your workflow.</li>
-<li>Machine readable names can be quickly and easily sorted and parsed.</li>
-</ul>
-</section>
-<section id="automation" class="level2">
-<h2>3. Automation</h2>
-<p>DRY -- Don't Repeat Yourself</p>
-<blockquote>
-<p>If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.</p>
-</blockquote>
-<p><a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a></p>
-</section>
-<section id="automation-tips" class="level2">
-<h2>Automation Tips</h2>
-<p>Modularity -- use functions to write code in reusable chunks.</p>
-<ul>
-<li>Variables created within a function are temporary.</li>
-<li>Code with functions can be easier to read / cleaner.</li>
-<li>Allows for better documentation.</li>
-<li>Supports testing.</li>
-<li>Allows for re-use of code on other data.</li>
-</ul>
-</section>
-<section id="section-4" class="level2">
-<h2></h2>
-<figure>
-<img src="images/intro-rr/index.jpg" />
-</figure>
-</section>
 <section id="dissemination" class="level2">
 <h2>Dissemination</h2>
 <blockquote>
@@ -272,6 +293,7 @@
 <section id="questions" class="level2">
 <h2>Questions?</h2>
 <p>Email: neondataskills@neoninc.org</p>
+</section>
 </section>
     </div>
   </div>

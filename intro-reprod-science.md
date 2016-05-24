@@ -71,14 +71,106 @@ errors. Click below to view paper.</small>
 
 _Over the next week, we will focus on the tools and skills associated with these facets._
 
-1. Documentation
-2. Organization
-3. Automation
+1. Organization
+2. Automation
+3. Documentation
 4. Dissemination
 
 
+## 1. Organization
 
-## 1. Documentation
+The more self explanatory the better:
+
+* Consider overall structure of folders and files.
+* Use informative file names.
+
+##
+
+![](images/intro-rr/basmati-rice.png)
+
+##
+
+<div style="width:85%">
+![](http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1000424.g001)
+</div>
+
+<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank">
+  Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a>
+
+
+## 1. Organization
+
+File Organization should:
+
+* Reflect inputs, outputs and information flow.
+* Preserve raw data so it's not modified.
+* Carefully document & store intermediate & end outputs.
+* Carefully document & store data processing scripts.
+
+
+## Organization
+![](images/intro-rr/fileOrganization.png)
+
+## 1. Organization -- File Names
+
+File / Folder Names should be:
+
+* Machine readable.
+* Human readable.
+* Support sorting.
+
+## Which set of file names are most self-explanatory?
+![](images/intro-rr/human-readable-jenny.png)
+
+
+##
+<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming & organization - the reproducible science curriculum.</a>
+
+## 1. Organization - Benefits
+
+* Your future self will be able to quickly find files.
+* Colleagues will be able to more quickly understand your workflow.
+* Machine readable names can be quickly and easily sorted and parsed.
+
+
+# 2. Automation Pro-Tip
+
+Scripting vs. Point and click
+
+>  Code = more time spent up front, but will save time in the long run.
+
+
+## 2. Automation Pro-Tip
+Time Savings:
+
+* More efficient to modify and repeat an analysis down the road.
+* Easier for reviewers and colleagues to see even aspect of your methods.
+* Self documenting methods - your future self will likely forget small steps.
+
+## 2. Automation
+
+DRY -- Don't Repeat Yourself
+
+> If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.
+
+<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a>
+
+
+## Automation Tips
+
+Modularity -- use functions to write code in reusable chunks.
+
+* Variables created within a function are temporary.
+* Code with functions can be easier to read / cleaner.
+* Allows for better documentation.
+* Supports testing.
+* Allows for re-use of code on other data.
+
+##
+
+![](images/intro-rr/index.jpg)
+
+## 2. Documentation
 
 Document all workflow steps:
 
@@ -112,80 +204,6 @@ Use coding approaches that connect data cleaning, analysis & results
 > R markdown and ipython / Jupyter notebooks allow you to publish code and results
 in one (or more) output files.
 
-## 2. Organization
-
-The more self explanatory the better:
-
-* Consider overall structure of folders and files.
-* Use informative file names.
-
-##
-
-<div style="width:85%">
-![](http://journals.plos.org/ploscompbiol/article/figure/image?size=large&id=info:doi/10.1371/journal.pcbi.1000424.g001)
-</div>
-
-<a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424" target="_blank">
-  Noble, William Stafford, 2009. A quick guide to organizing computational biology projects. </a>
-
-
-## 2. Organization
-
-File Organization should:
-
-* Reflect inputs, outputs and information flow.
-* Preserve raw data so it's not modified.
-* Carefully document & store intermediate & end outputs.
-* Carefully document & store data processing scripts.
-
-
-## Organization
-![](images/intro-rr/fileOrganization.png)
-
-## 2. Organization -- File Names
-
-File / Folder Names should be:
-
-* Machine readable.
-* Human readable.
-* Support sorting.
-
-## Which set of file names are most self-explanatory?
-![](images/intro-rr/human-readable-jenny.png)
-
-
-##
-<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on File Naming & organization - the reproducible science curriculum.</a>
-
-## 2. Organization - Benefits
-
-* Your future self will be able to quickly find files.
-* Colleagues will be able to more quickly understand your workflow.
-* Machine readable names can be quickly and easily sorted and parsed.
-
-
-## 3. Automation
-
-DRY -- Don't Repeat Yourself
-
-> If your analysis is composed of scripts, with repeated code throughout, it will be more time consuming to maintain and update.
-
-<a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/slides/01-automation-slides.html#9" target="_blank">Reproducible Science Curriculum - Automation</a>
-
-
-## Automation Tips
-
-Modularity -- use functions to write code in reusable chunks.
-
-* Variables created within a function are temporary.
-* Code with functions can be easier to read / cleaner.
-* Allows for better documentation.
-* Supports testing.
-* Allows for re-use of code on other data.
-
-##
-
-![](images/intro-rr/index.jpg)
 
 
 ## Dissemination
