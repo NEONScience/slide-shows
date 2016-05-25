@@ -15,3 +15,10 @@ To get going
 2. clone the repository
 3. make sure pandoc is installed on your local machine
 4. at the command line type `make html` -- all files with an .md extension will be built.
+
+To be able to build locally, you need to make sure that the reveal.js files 
+also clone.  
+`git submodule add https://github.com/hakimel/reveal.js reveal.js` and or 
+`git submodule update --init --recursive`
+in the command line.
+

@@ -7,6 +7,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="css/NEON-reveal.css">
   <link rel="stylesheet" href="reveal.js/css/reveal.css">
   <style type="text/css">code{white-space: pre;}</style>
   <link rel="stylesheet" href="reveal.js/css/theme/black.css" id="theme">
@@ -29,11 +30,20 @@
 
 <section id="build-dataone-slide-decks" class="level1">
 <h1>Build DataOne Slide Decks</h1>
-<p>Contributors: Jonah Duckles, Leah Wasser, Amber Budden, Heather Soyka, Vivian Hutchinson</p>
+<p>Contributors: Jonah Duckles, Leah Wasser, Megan Jones</p>
 <p>A markdown based system to build DataOne education modules using reveal.js.</p>
 <section id="introduction" class="level2">
 <h2>Introduction</h2>
-<p>More will go here</p>
+<p>This repository takes a markdown file (pandoc flavored syntax) and builds it to a reveal.js responsive slide show.</p>
+<p>To get going</p>
+<ol type="1">
+<li>make sure reveal.js is setup as a submodule</li>
+<li>clone the repository</li>
+<li>make sure pandoc is installed on your local machine</li>
+<li>at the command line type <code>make html</code> -- all files with an .md extension will be built.</li>
+</ol>
+<p>To be able to build locally, you need to make sure that the reveal.js files also clone.<br />
+<code>git submodule add https://github.com/hakimel/reveal.js reveal.js</code> and or <code>git submodule update --init --recursive</code> in the command line.</p>
 </section>
 </section>
     </div>
