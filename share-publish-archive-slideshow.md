@@ -34,24 +34,19 @@ submitting our manuscript.
 
 ## Increased visibility / citation
 
-<div class="column column1">
+![](https://github.com/NEON-WorkWithData/slide-shows/blob/gh-pages/images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png)
 
-![](/images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png)
-</div>
-
-<div class="column column2">
-Figure 1: Citation density for papers with and without publicly available
-microarray data, by year of study publication. 
+<small> Figure 1: Citation density for papers with and without publicly available
+microarray data, by year of study publication. </small>
 
 <small>Source: [Piwowar & Vision. 2013. Data reuse and the open data citation advantage](https://dx.doi.org/10.7717/peerj.175)</small>
-</div>
 
 ## Funding agency or journal requirements
 
 **Funding agencies**
 
 - [NSF Dissemination and Sharing of Research Results policy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
-- [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/) 
+- [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/)
 
 **Journals**
 
@@ -302,15 +297,12 @@ understanding.
 <iframe width="80%" height="700px" src="http://choosealicense.com/"></iframe>
 
 ## Software licensing guide
-<div class="column column1">
+
 ![](/images/share-publish-archive/journal.pcbi.1002598.g002.png)
 
-</div>
-
-<div class="column column2">
-Figure 3: Schematic representation of license directionality.
+<small>Figure 3: Schematic representation of license directionality.</small>
 <small>Source: Morin, Andrew, Jennifer Urban, and Piotr Sliz. 2012. [A Quick Guide to Software Licensing for the Scientist-Programmer.](http://dx.doi.org/10.1371/journal.pcbi.1002598) PLoS Computational Biology 8 (7): e1002598 </small>
-</div>
+
 
 ## Creative Commons
 
