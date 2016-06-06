@@ -1,18 +1,19 @@
 ## Sharing, publishing and archiving research products
 
-authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors </a>
+authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors</a>, modified by NEON staff.
 
-## What is the difference between sharing, publishing & archiving?
+## What is the difference?
 
 **Non-synomymous terms**
 
-* _shared_: any way of sharing information -- could mean I emailed it to you
+* _share_: any way of sharing information -- could mean I emailed it to you
 * _publish_ : citable artifact, discoverable
 * _archive_ : long-term preservation
 
+
 We'll be focusing on publishing and archiving
 
-## why, with whom, what, when, where, and how to publish & archive?
+## Why, with whom, what, when, where, and how to publish & archive?
 
 * why publish?
 * who are we sharing with?
@@ -24,7 +25,7 @@ We'll be focusing on publishing and archiving
 For the remaining slides, we are going to assume that we are at the point of
 submitting our manuscript.
 
-## why?
+## Why?
 
 * increased visibility / citation
 * funding agency / journal requirement
@@ -32,72 +33,77 @@ submitting our manuscript.
 
 
 ## Increased visibility / citation
-<div class=columns-2>
-<img src=/images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png width=500>
 
-<small>Figure 1: Citation density for papers with and without publicly available
-microarray data, by year of study publication.</small> Source:
-<a href="https://dx.doi.org/10.7717/peerj.175" target="_blank">Piwowar & Vision (2013) Data reuse and the open data citation advantage.</a>
-</div>
+<small> Figure 1: Citation density for papers with and without publicly available
+microarray data, by year of study publication. </small>
+
+<small>Source: [Piwowar & Vision. 2013. Data reuse and the open data citation advantage](https://dx.doi.org/10.7717/peerj.175)</small>
+
+![](images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png)
 
 ## Funding agency or journal requirements
 
-### Funding agencies
-- [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/)
-- [NSF Dissemination and Sharing of Research Results poicy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
+**Funding agencies**
 
-### Journals
+- [NSF Dissemination and Sharing of Research Results policy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
+- [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/)
+
+**Journals**
 
 - [PLOS Publishing policies](http://journals.plos.org/plosone/s/editorial-and-publishing-policies)
 - [Nature Publishing policies](http://www.nature.com/authors/policies/availability.html)
 
-## why?
+## Why?
 
 * increased visibility / citation
 * funding agency / journal requirement
 * community expects it
 * _better research_
+* _more efficient, less redundant science_
+    - by allowing others to build upon your work
 
 ## Better Research
 
-<div class=columns-2>
-<img src=http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001 width=450>
-
-<small>Figure 1. Distribution of reporting errors per paper for papers from which data were shared and from which no data were shared.</small>
-
-[Wicherts et al (2011) Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.](http://dx.doi.org/10.1371/journal.pone.0026828)
+<div class="column column1">
+![](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
 </div>
 
-## why?
+<div class="column column2">
+Figure 2: Distribution of reporting errors per paper, for papers from which data 
+were shared and from which no data were shared.
 
-### Reproducibility: what’s in it for me?
-
-_more efficient, less redundant science_
-    - by allowing others to build upon our work
-
-[Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) by Florian Markowetz
-
-- Reason number 1: reproducibility helps to avoid disaster
-- Reason number 2: reproducibility makes it easier to write papers
-- Reason number 3: reproducibility helps reviewers see it your way
-- Reason number 4: reproducibility enables continuity of your work
-- Reason number 5: reproducibility helps to build your reputation
+<small>Source: [Wicherts et al. 2011. Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.](http://dx.doi.org/10.1371/journal.pone.0026828)</small>
+</div>
 
 
-## who?
+## Reproducibility: what’s in it for me?
 
-### Who do we need to share with?
+[Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) 
+
+by Florian Markowetz
+
+- Reason 1: reproducibility helps to avoid disaster
+- Reason 2: reproducibility makes it easier to write papers
+- Reason 3: reproducibility helps reviewers see it your way
+- Reason 4: reproducibility enables continuity of your work
+- Reason 5: reproducibility helps to build your reputation
+
+
+## Who do we need to share with?
 
 * collaborators
 * peer reviewers & journal editors
 * broad scientific community
 * generally the public
 
-_For research to be reproducible, the research products (data, code) need to be publicly available in a form that people can find and understand them._
+_For research to be reproducible, the research products (data, code) need to be 
+publicly available in a form that people can find and understand them._
 
-## what? -- Thought Activity
+## What? -- Thought Activity
 
-**Think about a recent project or paper -- of the data and documents that were created for the project:**
+**Think about a recent project or paper --**
+
+**of the data and documents that were created for the project:**
 
 - What needs to be published?
 - What does not need to be published?
@@ -106,7 +112,7 @@ _For research to be reproducible, the research products (data, code) need to be 
 
 ## Activity outcomes
 
-<div class=columns-2>
+<div class="column column1">
 
 publish? _yes!_
 
@@ -122,6 +128,10 @@ publish? _maybe_
 * raw data
 * processed / cleaned data
 * intermediate results
+
+</div>
+
+<div class="column column2">
 
 publish? _no!_
 
@@ -141,40 +151,43 @@ consuming, but it assures that what you think you did is what you actually did.
 
 [Computing Workflows for Biologists: A Roadmap](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002303)
 
-## when?
+## When?
 
 You can make your code and data public at any point of the research process.
 
-However, at the point of paper submission, the results in your paper should be reproducible and therefore the data and code used in the paper published.
+However, at the point of paper submission, the results in your paper should be 
+reproducible and therefore the data and code used in the paper should be published.
 
-- Journals now often require it
-- Lets the editor and the reviewers accurately review the paper
+- Journals often require it 
+- It lets the editor and the reviewers accurately review the paper
 - There are options for publishing, but keeping things private for just reviewers until the paper is published
 
-## where?
+## Where?
 
 * Domain-specific data repository (GenBank, PDB)
 * Source code hosting service ([GitHub](http://github.com), [Bitbucket](http://bitbucket.com))
-* Generic repository ([Dryad](http://datadryad.com), [Figshare](http://figshare.com), [Zenodo](http://zenodo.org))
+* Generic repository ([Dryad](http://datadryad.com), [figshare](http://figshare.com), [Zenodo](http://zenodo.org))
 * Institutional repository
 * Sharing services ([RPubs](http://rpubs.com), [iPython Notebook Viewer](http://nbviewer.ipython.org/), Dropbox, Google Drive)
 
-**Discuss**: Contrast with journal supplementary materials.
 
-## many repositories
+**Thought Question**: How does published data & code contrast with journal 
+supplementary materials.
 
-[Registry of Research data Repositories](http://re3data.org)
-
-<img src=http://www.re3data.org/wp-content/uploads/2014/11/growth-re3data.png width=400>
+## Many repositories
 
 [Growth of re3data.org](http://www.re3data.org/2014/11/over-1000-research-data-repositories-indexed-in-re3data-org/)
+![](http://www.re3data.org/wp-content/uploads/2014/11/growth-re3data.png)
 
+## Many repositories
+
+[Registry of Research data Repositories](http://re3data.org)
 
 Only some of these are archival, meaning they're committing to retaining your
 data and products for longer periods of time. This is an important consideration
 depending on your funders requirements.
 
-## how to choose?
+## How to choose?
 
 * is there a domain specific repository?
 * what are the backup & replication policies?
@@ -183,18 +196,20 @@ depending on your funders requirements.
 * is it citable? (does it provide DOIs)
 * is your purpose archival, sharing or publication?
 
-## what goes where when?
+## What goes where when?
 
-<div class=columns-2>
+<div class="column column1">
 
 **You will likely have different artifacts:**
 
-* RMarkdown
+* R Markdown
 * source code
 * other documentation
 * raw data
 * derived data
-<br></br>
+</div>
+
+<div class="column column2">
 
 **Possible workflow:**
 
@@ -206,18 +221,18 @@ depending on your funders requirements.
 
 </div>
 
-## university libraries try to help
+## Institution libraries offer help
 
-Libraries often have good resources for data management plans and information
-and access to repositories. They are particularly good at thinking about data
-archives.
+University and institution libraries often have good resources for data 
+management plans and information and access to repositories. They are 
+particularly good at thinking about data archives.
 
 Librarians are very helpful and super awesome! They're a great resource.
 
 Example: The data management page from Duke University:
 <iframe width="100%" height="700px" src="http://library.duke.edu/data/guides/data-management"></iframe>
 
-## how to share, publish: file formats
+## How to share, publish: file formats
 
 **Do's**
 
@@ -230,13 +245,13 @@ Example: The data management page from Duke University:
 * data as PDFs or images
 * data in Word documents
 
-## how to share & publish: standard data formats
+## How to share & publish: standard data formats
 
 Using standard data formats is sometimes required, but even when it's not,
 conforming to standards greatly increases opportunties for re-use and
 understanding.
 
-## how to share & publish: checklist
+## How to share & publish: a checklist
 
 * top-level `README` that describes the data or software package
 * list files and naming conventions
@@ -249,13 +264,20 @@ understanding.
     - Github will automatically link to `CONTRIBUTING` file for new issues and
     pull requests
 
-## does copyright apply?
+## Does copyright apply?
+
+<div class="column column1">
 
 **Copyright applies to creative works**
 
 * source code
 * text (manuscripts etc)
 * images
+
+
+</div>
+
+<div class="column column2">
 
 **Typically not copyrightable:**
 
@@ -264,40 +286,39 @@ understanding.
 
 **Depends on jurisdiction and case:**
 
-* curated collections of data?
-* databases_
-* medical images?
+* curated collections of data
+* databases
+* medical images
+</div>
 
 ## Choose A License
 
 
 <iframe width="80%" height="700px" src="http://choosealicense.com/"></iframe>
 
-## software licensing guide
-<div class=columns-2>
-<img src=/images/share-publish-archive/journal.pcbi.1002598.g002.png width=500>
+## Software licensing guide
+<small>Figure 3: Schematic representation of license directionality.</small>
+<small>Source: Morin, Andrew, Jennifer Urban, and Piotr Sliz. 2012. [A Quick Guide to Software Licensing for the Scientist-Programmer.](http://dx.doi.org/10.1371/journal.pcbi.1002598) PLoS Computational Biology 8 (7): e1002598 </small>
 
-<font size=-1>Morin, Andrew, Jennifer Urban, and Piotr Sliz. 2012. “[A Quick Guide to Software Licensing for the Scientist-Programmer.](http://dx.doi.org/10.1371/journal.pcbi.1002598)” PLoS Computational Biology 8 (7): e1002598</font>
-
-</div>
+![](images/share-publish-archive/journal.pcbi.1002598.g002.png)
 
 ## Creative Commons
 
 <iframe width="100%" height="700px" src="http://creativecommons.org/choose/"></iframe>
 
-## open is not open to interpretation
+## Open is not open to interpretation
 
 [The Open Definition](http://opendefinition.org/) sets out principles that
 define “openness” in relation to data and content. It makes precise the meaning
 of “open” in the terms _open data_, _open content_, and _open source_:
 
-> “Open means anyone can freely access, use, modify, and share for any purpose
-(subject, at most, to requirements that preserve provenance and openness).”
+> <small>“Open means anyone can freely access, use, modify, and share for any purpose
+(subject, at most, to requirements that preserve provenance and openness).” </small>
 
 or more succinctly:
 
-> “Open data and content can be freely used, modified, and shared by anyone for
-any purpose”
+> <small>“Open data and content can be freely used, modified, and shared by anyone for
+any purpose”</small>
 
 ## Waiving copyright
 
@@ -315,28 +336,28 @@ without restriction under copyright or database law.
 [Dryad’s use of CC0](http://datadryad.org/pages/faq#info-cc0) to make the terms
 of reuse explicit has some important advantages:
 
-* Interoperability: Since CC0 is both human and machine-readable, other people
+* **Interoperability**: Since CC0 is both human and machine-readable, other people
 nd indexing services will automatically be able to determine the terms of use.
-* Universality: CC0 is a single mechanism that is both global and universal,
+* **Universality**: CC0 is a single mechanism that is both global and universal,
 covering all data and all countries. It is also widely recognized.
-* Simplicity: There is no need for humans to make, or respond to, individual
+* **Simplicity**: There is no need for humans to make, or respond to, individual
 data requests, and no need for click-through agreements. This allows more
 scientists to spend their time doing science.
 
-## licenses versus community norms
-
+## Licenses versus community norms
 
 From the [Panton Principles](http://pantonprinciples.org/faq/#Q11_What_are_community_norms_and_why_are_they_important):
-> [...] in the scholarly research community the act of citation is a commonly
+
+> <small>[...] in the scholarly research community the act of citation is a commonly
 held community norm when reusing another community member’s work.
 >
 > Community norms can be a much more effective way of encouraging positive
 behaviour, such as citation, than applying licenses. A well functioning
 community supports its members in their application of norms, whereas licences
 can only be enforced through court action and thus invite people to ignore them
-when they are confident that this is unlikely.
+when they are confident that this is unlikely.</small>
 
-## licenses are legal instruments
+## Licenses are legal instruments
 
 
 * Licenses, copyright, terms of use are complicated issues.
