@@ -1,168 +1,172 @@
-## Sharing, publishing and archiving research products
+## Share, publish, & archive research products
 
 authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors</a>, modified by NEON staff.
 
-## What is the difference?
 
-**Non-synomymous terms**
+## Reproducibility Is Beneficial
 
-* _share_: any way of sharing information -- could mean I emailed it to you
-* _publish_ : citable artifact, discoverable
-* _archive_ : long-term preservation
+* To us as scientists.
+* To the scientific community.
 
 
-We'll be focusing on publishing and archiving
+##
 
-## Why, with whom, what, when, where, and how to publish & archive?
+> [Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) - Florian Markowetz
 
-* why publish?
-* who are we sharing with?
-* what materials do we need to publish?
-* when do we make them available?
-* where do we publish various outputs?
-* how do we prepare materials for publication?
+1. Reproducibility helps to avoid disaster.
+2. Reproducibility makes it easier to write papers.
+3. Reproducibility helps reviewers see it your way.
+4. Reproducibility enables continuity of your work.
+5. Reproducibility helps to build your reputation.
 
-For the remaining slides, we are going to assume that we are at the point of
-submitting our manuscript.
+## Share vs. Publish vs. Archive.
 
-## Why?
+** Share, Publish & Archive are not the same things. **
 
-* increased visibility / citation
-* funding agency / journal requirement
-* community expects it
+## Share
+
+> _SHARE_: any way of sharing information -- could mean I emailed it to you
+
+
+## Publish
+
+> _PUBLISH_: The data / code are citable & discoverable
+
+## Archive
+
+> _ARCHIVE_: Long-term preservation -- there is a long term plan to store
+(and provide access to) the data / code.
+
+## Publish & Archive
+
+In this presentation, we'll focus on publishing & archiving.
+
+## Common Questions
+
+* Why publish?
+* Who are we sharing with?
+* What materials do we need to publish?
+* When do we make them available?
+* Where do we publish various outputs?
+* How do we prepare materials for publication?
+
+##
+
+Let's assume that we are at the point of submitting our manuscript.
+
+## Why Publish?
+
+* Increased visibility / citation.
+* Funding agency / journal requirement.
+* Community expects results from funded projects.
 
 
 ## Increased visibility / citation
 
+
+<div class="column column1">
+<figure>
+  <img src="images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png" width="90%" alt="Baby Orang Utan hanging from a rope">
+</figure>
+</div>
+<div class="column column2">
 <small> Figure 1: Citation density for papers with and without publicly available
 microarray data, by year of study publication. </small>
+Source: [Piwowar & Vision. 2013. Data reuse and the open data citation advantage](https://dx.doi.org/10.7717/peerj.175)
+</div>
 
-<small>Source: [Piwowar & Vision. 2013. Data reuse and the open data citation advantage](https://dx.doi.org/10.7717/peerj.175)</small>
+## Requirements Can Vary
 
-![](images/share-publish-archive/PiwowarVision_2013_PeerJ_Fig1.png)
+* **FUNDING AGENCIES:**  
+    - [NSF Dissemination and Sharing of Research Results policy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
+    - [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/)
+* **JOURNALS:**
+    - [PLOS Publishing policies](http://journals.plos.org/plosone/s/editorial-and-publishing-policies)
+    - [Nature Publishing policies](http://www.nature.com/authors/policies/availability.html)
 
-## Funding agency or journal requirements
+## Why Publish / Share?
 
-**Funding agencies**
+* Increased visibility / citation
+* Funding agency / journal requirement
+* Community expects it
+* _Better research_
+* _More efficient, less redundant science_
+    - Others can more effectively build upon your work
 
-- [NSF Dissemination and Sharing of Research Results policy](http://www.nsf.gov/bfa/dias/policy/dmp.jsp)
-- [NIH Data Sharing policy](http://grants.nih.gov/grants/policy/data_sharing/)
-
-**Journals**
-
-- [PLOS Publishing policies](http://journals.plos.org/plosone/s/editorial-and-publishing-policies)
-- [Nature Publishing policies](http://www.nature.com/authors/policies/availability.html)
-
-## Why?
-
-* increased visibility / citation
-* funding agency / journal requirement
-* community expects it
-* _better research_
-* _more efficient, less redundant science_
-    - by allowing others to build upon your work
-
-## Better Research
+## Why Share? Better Research.
 
 <div class="column column1">
 ![](http://journals.plos.org/plosone/article/figure/image?size=large&id=info:doi/10.1371/journal.pone.0026828.g001)
 </div>
 
 <div class="column column2">
-Figure 2: Distribution of reporting errors per paper, for papers from which data 
+Figure 2: Distribution of reporting errors per paper, for papers from which data
 were shared and from which no data were shared.
 
 <small>Source: [Wicherts et al. 2011. Willingness to Share Research Data Is Related to the Strength of the Evidence and the Quality of Reporting of Statistical Results.](http://dx.doi.org/10.1371/journal.pone.0026828)</small>
 </div>
 
-
-## Reproducibility: what’s in it for me?
-
-[Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) 
-
-by Florian Markowetz
-
-- Reason 1: reproducibility helps to avoid disaster
-- Reason 2: reproducibility makes it easier to write papers
-- Reason 3: reproducibility helps reviewers see it your way
-- Reason 4: reproducibility enables continuity of your work
-- Reason 5: reproducibility helps to build your reputation
-
-
 ## Who do we need to share with?
 
-* collaborators
-* peer reviewers & journal editors
-* broad scientific community
-* generally the public
+* Collaborators.
+* Peer reviewers & journal editors.
+* Broad scientific community.
+* General public.
 
-_For research to be reproducible, the research products (data, code) need to be 
-publicly available in a form that people can find and understand them._
+>For research to be reproducible, the research products (data, code) need to be
+publicly available in a form that people can find and understand them.
 
-## What? -- Thought Activity
+## What Should We Share?
 
-**Think about a recent project or paper --**
+**Consider a recent project or paper of yours:**
 
-**of the data and documents that were created for the project:**
-
-- What needs to be published?
-- What does not need to be published?
-- Anything that cannot be published?
+- Which parts are important to publish?
+- Which parts are less important to publish?
+- Which parts are too sensitive / cannot be published?
 
 
-## Activity outcomes
+## Things We Should Publish
 
-<div class="column column1">
+* Starting data set (if it's not already available)
+* Metadata
+* Data cleaning steps
+* Analysis scripts
+* Source code
+* Readme
 
-publish? _yes!_
 
-* starting data set
-* metadata
-* data cleaning steps
-* analysis scripts
-* source code
-* readme
+## Things We Should May or May Not Publish
 
-publish? _maybe_
+* Raw data: especially if it's already available
+* Processed / cleaned data
+* Intermediate results
 
-* raw data
-* processed / cleaned data
-* intermediate results
+## Things We Shouldn't Publish
 
-</div>
+* Confidential (e.g., patient) data
+* Material already published
+* Pre-existing restrictive license
+* Passwords, private keys
 
-<div class="column column2">
 
-publish? _no!_
+## How To Decide What to Publish
 
-* confidential (e.g., patient) data
-* material already published
-* pre-existing restrictive license
-* passwords, private keys
-
-</div>
-
-## Activity outcomes
-
-Advice: One way to determine what you need to publish is to go through and redo
-the analyses in your paper. Make note of the data and code and notes you needed
-to do that analysis. Make sure all of that is available. This might seem time
-consuming, but it assures that what you think you did is what you actually did.
+> Pro-Tip: Re-run your analyses: Make all of the data, code & notes needed  to
+run your analysis, available.
 
 [Computing Workflows for Biologists: A Roadmap](http://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1002303)
 
-## When?
+## When Should I Publish?
 
-You can make your code and data public at any point of the research process.
+> You can make your code and data public at any point of the research process.
+When you submit a paper, results should be
+reproducible and data & code should be published.
 
-However, at the point of paper submission, the results in your paper should be 
-reproducible and therefore the data and code used in the paper should be published.
+- Journals often require code publication.
+- It lets the editor and the reviewers accurately review the papers research methods.
+- You can often publish code and data for reviewers only to be publically released when the paper is published.
 
-- Journals often require it 
-- It lets the editor and the reviewers accurately review the paper
-- There are options for publishing, but keeping things private for just reviewers until the paper is published
-
-## Where?
+## Where Should I Publish?
 
 * Domain-specific data repository (GenBank, PDB)
 * Source code hosting service ([GitHub](http://github.com), [Bitbucket](http://bitbucket.com))
@@ -170,11 +174,7 @@ reproducible and therefore the data and code used in the paper should be publish
 * Institutional repository
 * Sharing services ([RPubs](http://rpubs.com), [iPython Notebook Viewer](http://nbviewer.ipython.org/), Dropbox, Google Drive)
 
-
-**Thought Question**: How does published data & code contrast with journal 
-supplementary materials.
-
-## Many repositories
+## Data Sharing Repositories
 
 [Growth of re3data.org](http://www.re3data.org/2014/11/over-1000-research-data-repositories-indexed-in-re3data-org/)
 ![](http://www.re3data.org/wp-content/uploads/2014/11/growth-re3data.png)
@@ -183,90 +183,84 @@ supplementary materials.
 
 [Registry of Research data Repositories](http://re3data.org)
 
-Only some of these are archival, meaning they're committing to retaining your
-data and products for longer periods of time. This is an important consideration
-depending on your funders requirements.
+> Pro_tip: Archival Repository is one that retains your
+data for a set period of time. Funding agencies often have requirements associated
+with duration of the archive.
 
-## How to choose?
+## How to Chose a Repository
 
-* is there a domain specific repository?
-* what are the backup & replication policies?
-* is there a plan for long-term preservation?
-* can people find your materials?
-* is it citable? (does it provide DOIs)
-* is your purpose archival, sharing or publication?
+* Is there a domain specific repository?
+* What are the backup & replication policies?
+* Is there a plan for long-term preservation?
+* Can people find your materials?
+* Is it citable? (does it provide DOIs)
+* Is your purpose archival, sharing or publication?
 
-## What goes where when?
+## Where to Publish Various Parts of a Project
 
-<div class="column column1">
+**You will likely have different project components:**
 
-**You will likely have different artifacts:**
+* R Markdown (Jupyter notebook, etc)
+* Source code
+* Other documentation
+* Raw data
+* Derived data
 
-* R Markdown
-* source code
-* other documentation
-* raw data
-* derived data
-</div>
+## Where to Publish Various Parts of a Project
 
-<div class="column column2">
+**Example (R focused) workflow:**
 
-**Possible workflow:**
+* Develop code: GitHub
+* Upon Publication:
+    - Share R markdown on RPubs
+    - Archive a snapshot of data in Dryad
+    - Code snapshot to Zenodo
 
-* develop data & code on GitHub
-* upon publication
-    - share markdown on RPubs
-    - archive a snapshot of data in Dryad
-    - code snapshot to Zenodo
 
-</div>
+## Resources: Libraries Can Help
 
-## Institution libraries offer help
+> Pro-Tip: University and institution libraries often have resources for data
+management plans, repository access and data archiving.
 
-University and institution libraries often have good resources for data 
-management plans and information and access to repositories. They are 
-particularly good at thinking about data archives.
+Ask a Librarian!
 
-Librarians are very helpful and super awesome! They're a great resource.
+## Resources: Libraries Can Help
 
 Example: The data management page from Duke University:
 <iframe width="100%" height="700px" src="http://library.duke.edu/data/guides/data-management"></iframe>
 
-## How to share, publish: file formats
+## Document Format Considerations
 
-**Do's**
+**Do Use:**
 
-* non-proprietary file formats
-* text file formats (.csv, .tsv, .txt)
+* Non-proprietary file formats
+* Text file formats (.csv, .tsv, .txt)
 
-**Don'ts**
+**Don't Use**
 
-* proprietary file formats (.xls)
-* data as PDFs or images
-* data in Word documents
+* Proprietary file formats (.xls).
+* Data as PDFs or images.
+* Data in Word documents.
 
 ## How to share & publish: standard data formats
 
-Using standard data formats is sometimes required, but even when it's not,
-conforming to standards greatly increases opportunties for re-use and
-understanding.
+> Pro-Tip: Using standard data formats increases opportunities for re-use and
+expansion of your research.
 
-## How to share & publish: a checklist
+## A Reproducible Project Should Include
 
-* top-level `README` that describes the data or software package
-* list files and naming conventions
-* describe abbreviations, column names, etc
-* installation and usage instructions for software
-    - create separate `INSTALL` if long
-* citation instructions
-    - consider creating a [`CITATION` file](http://blog.rtwilson.com/encouraging-citation-of-software-introducing-citation-files/)
-* contribution instructions
+* Top-level `README` that describes data / software package
+* List files & naming conventions
+* Describe abbreviations, column names, etc
+* Software installation & usage instructions
+    - Create separate `INSTALL` if long
+* Citation instructions
+    - Consider creating a [`CITATION` file](http://blog.rtwilson.com/encouraging-citation-of-software-introducing-citation-files/)
+* Contribution instructions
     - Github will automatically link to `CONTRIBUTING` file for new issues and
     pull requests
 
 ## Does copyright apply?
-
-<div class="column column1">
 
 **Copyright applies to creative works**
 
@@ -274,10 +268,7 @@ understanding.
 * text (manuscripts etc)
 * images
 
-
-</div>
-
-<div class="column column2">
+## Does copyright apply?
 
 **Typically not copyrightable:**
 
@@ -289,12 +280,11 @@ understanding.
 * curated collections of data
 * databases
 * medical images
-</div>
 
 ## Choose A License
 
 
-<iframe width="80%" height="700px" src="http://choosealicense.com/"></iframe>
+<iframe width="70%" height="700px" src="http://choosealicense.com/"></iframe>
 
 ## Software licensing guide
 <small>Figure 3: Schematic representation of license directionality.</small>
