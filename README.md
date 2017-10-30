@@ -1,9 +1,9 @@
-# Build DataOne Slide Decks
+# Build NEON Slide Decks
 
 Contributors:
 Jonah Duckles, Leah Wasser, Megan Jones
 
-A markdown based system to build DataOne education modules using reveal.js.
+A markdown based system to build NEON education modules using reveal.js.  This repo was based on the format used by DataOne. 
 
 ## Introduction
 This repository takes a markdown file (pandoc flavored syntax) and builds it to
