@@ -121,13 +121,13 @@ Figure 1. Distribution of reporting errors per paper. Papers from which data wer
 
 
 
-## The tools we will use
+## The tools that make this easier
 
 
 
 * GitHub: Version Control / Collaboration / Dissemination
 
-* R Markdown: Code Documentation / Dissemination
+* R Markdown or Jupyter Notebooks: Code Documentation / Dissemination
 
 
 
@@ -149,8 +149,8 @@ _Over the next week, we will focus on the tools and skills associated with these
 
 The more self explanatory the better:
 
-* Consider overall structure of folders and files.
-* Use informative file names.
+* Consider overall structure of folders and files
+* Use informative file names
 
 ## 1. Organization Pro-Tip
 
@@ -174,10 +174,10 @@ The more self explanatory the better:
 
 File Organization should:
 
-* Reflect inputs, outputs and information flow.
-* Preserve raw data so it's not modified.
-* Carefully document & store intermediate & end outputs.
-* Carefully document & store data processing scripts.
+* Reflect inputs, outputs and information flow
+* Preserve raw data so it's not modified
+* Carefully document & store intermediate & end outputs
+* Carefully document & store data processing scripts
 
 
 ## Organization
@@ -188,9 +188,9 @@ File Organization should:
 
 File / Folder Names should be:
 
-* Machine readable.
-* Human readable.
-* Support sorting.
+* Machine readable
+* Human readable
+* Support sorting
 
 ## Which set of file names are most self-explanatory?
 ![](images/intro-rr/human-readable-jenny.png)
@@ -199,13 +199,13 @@ File / Folder Names should be:
 ##
 <a href="http://reproducible-science-curriculum.github.io/2015-09-24-reproducible-science-duml/naming-slides/assets/player/KeynoteDHTMLPlayer.html" target="_blank">More on file naming & organization</a>
  
--- from the Reproducible Science Curriculum.
+-- from the Reproducible Science Curriculum
 
 ## 1. Organization - Benefits
 
-* Your future self will be able to quickly find files.
-* Colleagues will be able to more quickly understand your workflow.
-* Machine readable names can be quickly and easily sorted and parsed.
+* Your future self will be able to quickly find files
+* Colleagues will be able to more quickly understand your workflow
+* Machine readable names can be quickly and easily sorted and parsed
 
 
 ## 2. Automation Pro-Tip
@@ -218,9 +218,9 @@ Scripting vs. Point and click
 ## 2. Automation Pro-Tip
 Time Savings:
 
-* More efficient to modify and repeat an analysis down the road.
-* Easier for reviewers and colleagues to see even aspect of your methods.
-* Self documenting methods - your future self will likely forget small steps.
+* More efficient to modify and repeat an analysis down the road
+* Easier for reviewers and colleagues to see even aspect of your methods
+* Self documenting methods - your future self will forget small steps
 
 ## 2. Automation
 
@@ -233,13 +233,13 @@ DRY -- Don't Repeat Yourself
 
 ## Automation Tips
 
-Modularity -- use functions to write code in reusable chunks.
+Modularity -- use functions to write code in reusable chunks
 
-* Variables created within a function are temporary.
-* Code with functions can be easier to read / cleaner.
-* Allows for better documentation.
-* Supports testing.
-* Allows for re-use of code on other data.
+* Variables created within a function are temporary
+* Code with functions can be easier to read / cleaner
+* Allows for better documentation
+* Supports testing
+* Allows for re-use of code on other data
 
 ##
 
@@ -249,9 +249,9 @@ Modularity -- use functions to write code in reusable chunks.
 
 Document all workflow steps:
 
-* You can remind your future self of your workflow.
-* Others can see and understand your work.
-* Future "re-analysis" of your data is more efficient.
+* You can remind your future self of your workflow
+* Others can see and understand your work
+* Future "re-analysis" of your data is more efficient
 
 
 ## Documentation
@@ -276,7 +276,7 @@ Code should be easy to understand with clear goals
 
 Use coding approaches that connect data cleaning, analysis & results
 
-> R Markdown and IPython / Jupyter notebooks allow you to publish code and results
+> R Markdown and Jupyter notebooks allow you to publish code and results
 in one (or more) output files.
 
 
@@ -288,10 +288,10 @@ in one (or more) output files.
 
 ## Dissemination - Why
 
-* Funding agency / journal requirement.
-* Community expects it.
-* Increased visibility / citation.
-* More efficient, less redundant science.
+* Funding agency / journal requirement
+* Community expects it
+* Increased visibility / citation
+* More efficient, less redundant science
 
 
 
@@ -301,17 +301,17 @@ in one (or more) output files.
 
 
 
-Example Workflow / Tools (R focused):
+Example Workflow / Tools:
 
 
 
-* Document workflow: **R Markdown / Jupiter Notebooks**
+* Document workflow: **R Markdown / Jupyter Notebooks**
 
 * Collaborate with Colleagues / Version Control : **GitHub**
 
-* Publish Data Snapshot: **FigShare, Dryad, etc**
+* Publish Data Snapshot: **FigShare, Dryad, Zenodo, etc**
 
-* Share workflow: ** RPubs , IPython Notebook Viewer**
+* Share workflow: **Notebook Viewer, Binder**
 
 
 
@@ -326,13 +326,13 @@ the Data Institute_
 
 
 
-1. Documentation - RMarkdown, GitHub
+1. Documentation: **Jupyter notebooks, GitHub**
 
-2. Organization - File naming / directory structure best practices.
+2. Organization: **File naming / directory structure best practices**
 
-3. Automation - Efficient Coding Practices (in R)
+3. Automation: **Efficient Coding Practices (in Python)**
 
-4. Dissemination - GitHub
+4. Dissemination: **GitHub**
 
 
 

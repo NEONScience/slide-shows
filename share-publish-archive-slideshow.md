@@ -1,27 +1,27 @@
 ## Share, publish, & archive research products
 
-authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors</a>, modified by NEON staff.
+authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publication" target="_blank">Reproducible Science Curriculum contributors</a>, modified by NEON staff
 
 
 ## Reproducibility Is Beneficial
 
-* To us as scientists.
-* To the scientific community.
+* To us as scientists
+* To the scientific community
 
 
 ##
 
 > [Five selfish reasons to work reproducibly](http://www.genomebiology.com/2015/16/1/274) - Florian Markowetz
 
-1. Reproducibility helps to avoid disaster.
-2. Reproducibility makes it easier to write papers.
-3. Reproducibility helps reviewers see it your way.
-4. Reproducibility enables continuity of your work.
-5. Reproducibility helps to build your reputation.
+1. Reproducibility helps to avoid disaster
+2. Reproducibility makes it easier to write papers
+3. Reproducibility helps reviewers see it your way
+4. Reproducibility enables continuity of your work
+5. Reproducibility helps to build your reputation
 
-## Share vs. Publish vs. Archive.
+## Share vs. Publish vs. Archive
 
-**Share, Publish & Archive are not the same things.**
+**Sharing, Publishing, & Archiving are not the same things**
 
 ## Share
 
@@ -35,11 +35,11 @@ authors: <a href="https://github.com/Reproducible-Science-Curriculum/rr-publicat
 ## Archive
 
 > _ARCHIVE_: Long-term preservation -- there is a long term plan to store
-(and provide access to) the data / code.
+(and provide access to) the data / code
 
 ## Publish & Archive
 
-In this presentation, we'll focus on publishing & archiving.
+In this presentation, we'll focus on publishing & archiving
 
 ## Common Questions
 
@@ -52,13 +52,13 @@ In this presentation, we'll focus on publishing & archiving.
 
 ##
 
-Let's assume that we are at the point of submitting our manuscript.
+Let's assume that we are at the point of submitting our manuscript
 
 ## Why Publish?
 
-* Increased visibility / citation.
-* Funding agency / journal requirement.
-* Community expects results from funded projects.
+* Increased visibility / citation
+* Funding agency / journal requirement
+* Community expects results from funded projects
 
 
 ## Increased visibility / citation
@@ -111,10 +111,10 @@ were shared and from which no data were shared.
 >For research to be reproducible, the research products (data, code) need to be
 publicly available in a form that people can find and understand them.
 
-* Collaborators.
-* Peer reviewers & journal editors.
-* Broad scientific community.
-* General public.
+* Collaborators
+* Peer reviewers & journal editors
+* Broad scientific community
+* General public
 
 ## What Should We Share?
 
@@ -164,9 +164,9 @@ reproducible and data & code should be published.
 
 ## When Should I Publish?
 
-* Journals often require code publication.
-    - Allows editors & reviewers to accurately review methods.
-    - You can often publish code for reviewers only to be publicly released when the paper is published.
+* Journals often require code publication
+    - Allows editors & reviewers to accurately review methods
+    - You can often publish code for reviewers only to be publicly released when the paper is published
 
 ## Where Should I Publish?
 
@@ -175,14 +175,6 @@ reproducible and data & code should be published.
 * Generic repository ([Dryad](http://datadryad.com), [figshare](http://figshare.com), [Zenodo](http://zenodo.org))
 * Institutional repository
 * Sharing services ([RPubs](http://rpubs.com), [iPython Notebook Viewer](http://nbviewer.ipython.org/), Dropbox, Google Drive)
-
-## Data Sharing Repositories
-<figure>
-<a href="http://www.re3data.org/2014/11/over-1000-research-data-repositories-indexed-in-re3data-org/" target="_blank">
-<img src="http://www.re3data.org/wp-content/uploads/2014/11/growth-re3data.png" width="70%">
-
-<figcaption>Online Data Repo catalog - Growth of re3data.org</figcaption>
-<figure>
 
 ## Many repositories
 
@@ -205,7 +197,7 @@ with duration of the archive.
 
 **You will likely have different project components:**
 
-* R Markdown (Jupyter notebook, etc)
+* R Markdown, Jupyter notebook, etc.
 * Source code
 * Other documentation
 * Raw data
@@ -213,11 +205,11 @@ with duration of the archive.
 
 ## Where to Publish Various Parts of a Project
 
-**Example (R focused) workflow:**
+**Example (Python focused) workflow:**
 
 * Develop code: GitHub
 * Upon Publication:
-    - Share R markdown on RPubs
+    - Share notebooks on GitHub, Notebook Viewer links
     - Archive a snapshot of data in Dryad
     - Code snapshot to Zenodo
 
@@ -239,13 +231,13 @@ expansion of your research.
 **Do Use:**
 
 * Non-proprietary file formats
-* Text file formats (.csv, .tsv, .txt)
+* Text file formats (.csv, .tsv, .md, .txt)
 
 **Don't Use:**
 
-* Proprietary file formats (.xls).
-* Data as PDFs or images.
-* Data in Word documents.
+* Proprietary file formats (.xls)
+* Numeric data in PDFs or images (please, please don't!)
+* Data in Word documents
 
 ## A Reproducible Project Should Include
 
