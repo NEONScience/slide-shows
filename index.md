@@ -5,7 +5,7 @@ description: "Home page."
 ---
 
 
-## Welcome to NEON slide-shows
+## NEON Reproducible Methods Slideshows
 
 
 * <a href="http://neonscience.github.io/slide-shows/intro-reprod-science.html" target="_blank">Intro to Reproducible Science</a>
